@@ -27,3 +27,4 @@
 include ':livecache'
 
 rootProject.name = "livecache-root"
+include ':samples'

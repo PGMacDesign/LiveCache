@@ -30,13 +30,11 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 29
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -94,5 +92,3 @@ dependencies {
 repositories {
     mavenCentral()
 }
-
-apply from: rootProject.file('gradle/artifactory.gradle')
